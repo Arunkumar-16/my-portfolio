@@ -1,0 +1,301 @@
+﻿.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/design2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+.logo {
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+nav ul li {
+    margin-top: 5px;
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+    font: bold 18px medium;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: .1s;
+   
+}
+nav ul li a:hover {
+    color: red;
+}
+.info {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.info h2 {
+    font-size: 70px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span {
+    color: red;
+    font-family: 'Ink Free';
+
+}
+.info a {
+    background-color: black;
+    padding: 10px 18px;
+    color: whitesmoke;
+    display: inline;
+    margin: 30px 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 5px;
+    transition: .1s;
+}
+.info a:hover {
+    background-color: red;
+}
+.info p {
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.img-box {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img {
+    height: 100%;
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
+         /* about section----------*/
+.about {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/design1.png);
+}
+.about-text {
+    text-align: left;
+    line-height: 70px;
+}
+.about-text h2 {
+    color: thistle;
+    font-size: 18px;
+    text-indent: 25px;
+    text-transform: uppercase;
+ }
+.about-text p {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 3px;
+    bottom: 10px;
+}
+.object {
+    color: thistle;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+          /*------education-----*/
+.Education {
+     width: 100%;
+     height: 100vh;
+   
+}
+.Education h1 {
+        color: thistle;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-bottom: 60px;
+}
+.Education-data {
+    color: black;
+    display: inline-flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+}
+.clg {
+    width: 33%;
+    margin: 5px;
+    background-image: url(../images/clg.jpg);
+    background-position-y: bottom;
+    padding: 0 35px 0 35px;
+    border-radius: 20px;
+}
+.clg ul li {
+    text-align: center;
+    padding-left: 2em;
+    list-style: none;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: black;
+}
+.scl12 {
+    width: 33%;
+    margin: 5px;
+    background-image: url(../images/scl10.jpg);
+    background-position-y: bottom;
+    padding: 0 35px 0 35px;
+    border-radius: 20px;
+}
+.scl12 ul li {
+    text-align: center;
+    padding-left: 2em;
+    list-style: none;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: black;
+}
+.scl10 {
+    width: 33%;
+    margin: 5px;
+    background-image: url(../images/scl12.jpg);
+    background-position-y: bottom;
+    padding: 10px 0 35px;
+    border-radius: 20px;
+}
+.scl10 ul li {
+        text-align: center;
+        padding-left: 2em;
+        list-style: none;
+        line-height: 30px;
+        letter-spacing: 2px;
+        color: black;
+}
+              /* project section */
+.about-projects {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/design1.png);
+}
+.about-projects h1 {
+        text-align: center;
+        line-height: 70px;
+        color: thistle;
+        font-size: 28px;
+        text-transform: uppercase;
+}
+.projects {
+    color: white;
+    display: inline-flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mini {
+    margin: 50px;
+}
+.mini h2 {
+    color: thistle;
+
+    text-align: center;
+}
+.mini p {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+        width: 50%;
+        margin: 5px;
+        background-image: url(../images/search.jpg);
+        background-position: right;
+        padding: 150px;
+        border-radius: 20px;
+}
+.major {
+    margin: 50px
+}
+.major h2 {
+    color: thistle;
+        text-align: center;
+}
+.major p {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        width: 50%;
+        margin: 5px;
+        background-image: url(../images/search.jpg);
+        background-position: center;
+        padding: 150px;
+        border-radius: 20px;
+}
+                /*-----SKILLS---------*/
+.skills {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/design1.png);
+}
+.skills h1 {
+        text-align: center;
+        line-height: 80px;
+        color: thistle;
+        font-size: 28px;
+        text-transform: uppercase;
+
+}
+.typeofskills {
+    width: 100%;
+    color: white;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+}
+.technical-skill {
+    width: 50%;
+    margin: 50px;
+}
+.technical-skill h2 {
+        color: thistle;
+        text-align: center;
+        text-indent: 30px;
+}
+.industrial-skill {
+    width: 60%;
+    margin: 300px;
+
+}
+.technical-skill ul li {
+    text-align: center;
+    padding-left: 2em;
+    list-style: none;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: tan;
+}
+.industrial-skill h2 {
+    color: thistle;
+    text-align: center;
+    text-indent: 30px;
+}
+.industrial-skill ul li {
+    text-align: center;
+    padding-left: 2em;
+    list-style: none;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: tan;
+}
